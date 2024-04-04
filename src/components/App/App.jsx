@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import Description from "../Description/Description";
-import Option from "../Option/Option";
+import Options from "../Options/Options";
 import Feedback from "../Feedback/Feedback";
 import Notification from "../Notification/Notification";
 import "./App.module.css";
@@ -40,7 +40,7 @@ function App() {
   return (
     <>
       <Description />
-      <Option
+      <Options
         updateFeedback={updateFeedback}
         resetFeedback={resetFeedback}
         totalFeedback={totalFeedback}

@@ -1,6 +1,6 @@
-import "./Option.module.css";
+import "./Options.module.css";
 
-export default function Option({ updateFeedback, resetFeedback, totalFeedback }) {
+export default function Options({ updateFeedback, resetFeedback, totalFeedback }) {
   return (
     <>
       <button
